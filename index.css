@@ -1,0 +1,71 @@
+.card{
+    padding: 2rem 5rem;
+    width: 30rem;
+    height: 43rem;
+    
+    border: 2px solid gray;
+    border-radius: 1rem;
+    font-size: 4rem;
+    text-wrap: wrap;
+}
+
+#first-card {
+    z-index: 5;
+    background-color: white;
+}
+
+#second-card {
+    position:absolute;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+    z-index: 1;
+    background-color: red;
+}
+
+.flex {
+    display: flex;
+}
+
+#image {
+    width: 27rem;
+    height: 10.8rem;
+}
+
+#text {
+    margin-top: 1rem;
+}
+
+.button {    
+    padding: 1.5rem 3.5rem;
+    margin: 2rem;
+    border: 5px solid var(--main);
+    border-radius: 0.25rem;
+    font-size: 3rem;
+    font-family: handfont;
+    cursor: pointer;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: handfont;
+    --main: #e6004b;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: #E0E0E0;
+}
+
+#bulldog { 
+    width: 48rem;
+    height: 38.25rem;
+}
+
+@font-face {
+    font-family: handfont;
+    src: url(Holyhand\ Script.ttf);
+}
+
+#cat {
+    margin-top: 2rem;
+}

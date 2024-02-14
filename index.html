@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML5 Boilerplate</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="index.css" media="screen" />
+  <script>
+    function clickYes() {
+        document.body.innerHTML = "<img id='bulldog' src='bulldog.jpg'/>";
+    }
+
+    function clickNo() {
+        document.body.innerHTML = "<img id='cat' src='cat.jpg'/>";
+    }
+</script>
+</head>
+
+<body>
+  <div class="flex">
+    <div class="card" id="first-card">
+        <img src="image.jpg" id="image"/>
+        <div id="text">Czy zostaniesz moją walentynką?</div>
+        <div class="flex">
+        <button class="button" onclick="clickYes()">Tak</button>
+        <button class="button" onclick="clickNo()">Nie</button>
+    </div>
+    </div>
+    <div class="card" id="second-card"></div>
+  </div>
+  <script src="scripts.js"></script>
+</body>
+
+</html>
